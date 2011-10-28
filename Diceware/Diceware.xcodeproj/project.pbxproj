@@ -440,7 +440,6 @@
 		64FFD981145B3BE300161807 = {
 			isa = PBXGroup;
 			children = (
-				64FFE047145B5F4000161807 /* Security.framework */,
 				64FFD996145B3BE300161807 /* Diceware */,
 				64FFD98F145B3BE300161807 /* Frameworks */,
 				64FFD98D145B3BE300161807 /* Products */,
@@ -458,6 +457,7 @@
 		64FFD98F145B3BE300161807 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				64FFE047145B5F4000161807 /* Security.framework */,
 				64FFD990145B3BE300161807 /* UIKit.framework */,
 				64FFD992145B3BE300161807 /* Foundation.framework */,
 				64FFD994145B3BE300161807 /* CoreGraphics.framework */,
