@@ -7,9 +7,10 @@
 //
 
 #import "AIAppDelegate.h"
+#import "AIRandomManager.h"
 
-#import "cryptopp561/osrng.h"
-#import <Security/Security.h>
+#import "Logging/DDLog.h"
+#import "Logging/DDTTYLogger.h"
 
 @implementation AIAppDelegate
 
@@ -23,27 +24,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    LOG_V("entry.");
+    
+    // -------------------------------------------------------------------------
+    //  Initialize the logger.
+    // -------------------------------------------------------------------------
+    [DDLog addLogger:[DDTTYLogger sharedInstance]];
+    // -------------------------------------------------------------------------    
+    
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    // !!AI dive in head first.
-    const unsigned int BLOCKSIZE = 16 * 8;
-    byte pcbScratch[BLOCKSIZE];
-    CryptoPP::AutoSeededRandomPool rng;
-    
-    uint8_t data[64];
-    int err = SecRandomCopyBytes(kSecRandomDefault, 64, data);
-    NSLog(@"error from SecRandomCopyBytes call: %i", err);
-    rng.IncorporateEntropy(data, 64);
-    
-    rng.GenerateBlock(pcbScratch, BLOCKSIZE);
-    for (unsigned int i=0; i<BLOCKSIZE; i++)
-    {
-        NSLog(@"%02x", pcbScratch[i]);
-    }
+    AIRandomManager *randomManager = [AIRandomManager getInstance];
+    LOG_V("randomManager: %@", randomManager);
 
+    LOG_V("exit");
     return YES;
 }
 

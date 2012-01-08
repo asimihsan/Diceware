@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64F5CE6A14BA12F400FA3E9D /* AIRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F5CE6914BA12F400FA3E9D /* AIRootViewController.m */; };
+		64F5CE8014BA162000FA3E9D /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F5CE7714BA162000FA3E9D /* DDAbstractDatabaseLogger.m */; };
+		64F5CE8114BA162000FA3E9D /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F5CE7914BA162000FA3E9D /* DDASLLogger.m */; };
+		64F5CE8214BA162000FA3E9D /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F5CE7B14BA162000FA3E9D /* DDFileLogger.m */; };
+		64F5CE8314BA162000FA3E9D /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F5CE7D14BA162000FA3E9D /* DDLog.m */; };
+		64F5CE8414BA162000FA3E9D /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F5CE7F14BA162000FA3E9D /* DDTTYLogger.m */; };
+		64F5CE8814BA16C600FA3E9D /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F5CE8714BA16C600FA3E9D /* Constants.m */; };
+		64F5CE8B14BA1A6600FA3E9D /* AIRandomManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 64F5CE8A14BA1A6500FA3E9D /* AIRandomManager.mm */; };
 		64FFD991145B3BE300161807 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64FFD990145B3BE300161807 /* UIKit.framework */; };
 		64FFD993145B3BE300161807 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64FFD992145B3BE300161807 /* Foundation.framework */; };
 		64FFD995145B3BE300161807 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64FFD994145B3BE300161807 /* CoreGraphics.framework */; };
@@ -146,6 +154,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64F5CE6814BA12F400FA3E9D /* AIRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRootViewController.h; sourceTree = "<group>"; };
+		64F5CE6914BA12F400FA3E9D /* AIRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRootViewController.m; sourceTree = "<group>"; };
+		64F5CE7614BA162000FA3E9D /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		64F5CE7714BA162000FA3E9D /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		64F5CE7814BA162000FA3E9D /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		64F5CE7914BA162000FA3E9D /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		64F5CE7A14BA162000FA3E9D /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		64F5CE7B14BA162000FA3E9D /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		64F5CE7C14BA162000FA3E9D /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		64F5CE7D14BA162000FA3E9D /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		64F5CE7E14BA162000FA3E9D /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		64F5CE7F14BA162000FA3E9D /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		64F5CE8514BA167500FA3E9D /* AILogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AILogging.h; sourceTree = "<group>"; };
+		64F5CE8614BA16C600FA3E9D /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Diceware/Constants.h; sourceTree = "<group>"; };
+		64F5CE8714BA16C600FA3E9D /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Constants.m; path = Diceware/Constants.m; sourceTree = "<group>"; };
+		64F5CE8914BA1A6500FA3E9D /* AIRandomManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AIRandomManager.h; path = Diceware/AIRandomManager.h; sourceTree = "<group>"; };
+		64F5CE8A14BA1A6500FA3E9D /* AIRandomManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AIRandomManager.mm; path = Diceware/AIRandomManager.mm; sourceTree = "<group>"; };
 		64FFD98C145B3BE300161807 /* Diceware.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diceware.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64FFD990145B3BE300161807 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		64FFD992145B3BE300161807 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -437,9 +462,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64F5CE7514BA162000FA3E9D /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				64F5CE8514BA167500FA3E9D /* AILogging.h */,
+				64F5CE7614BA162000FA3E9D /* DDAbstractDatabaseLogger.h */,
+				64F5CE7714BA162000FA3E9D /* DDAbstractDatabaseLogger.m */,
+				64F5CE7814BA162000FA3E9D /* DDASLLogger.h */,
+				64F5CE7914BA162000FA3E9D /* DDASLLogger.m */,
+				64F5CE7A14BA162000FA3E9D /* DDFileLogger.h */,
+				64F5CE7B14BA162000FA3E9D /* DDFileLogger.m */,
+				64F5CE7C14BA162000FA3E9D /* DDLog.h */,
+				64F5CE7D14BA162000FA3E9D /* DDLog.m */,
+				64F5CE7E14BA162000FA3E9D /* DDTTYLogger.h */,
+				64F5CE7F14BA162000FA3E9D /* DDTTYLogger.m */,
+			);
+			name = Logging;
+			path = Diceware/Logging;
+			sourceTree = "<group>";
+		};
 		64FFD981145B3BE300161807 = {
 			isa = PBXGroup;
 			children = (
+				64F5CE8914BA1A6500FA3E9D /* AIRandomManager.h */,
+				64F5CE8A14BA1A6500FA3E9D /* AIRandomManager.mm */,
+				64F5CE8614BA16C600FA3E9D /* Constants.h */,
+				64F5CE8714BA16C600FA3E9D /* Constants.m */,
+				64F5CE7514BA162000FA3E9D /* Logging */,
 				64FFD996145B3BE300161807 /* Diceware */,
 				64FFD98F145B3BE300161807 /* Frameworks */,
 				64FFD98D145B3BE300161807 /* Products */,
@@ -471,6 +520,8 @@
 				64FFDEB4145B562E00161807 /* cryptopp561 */,
 				64FFD99F145B3BE300161807 /* AIAppDelegate.h */,
 				64FFD9A0145B3BE300161807 /* AIAppDelegate.mm */,
+				64F5CE6814BA12F400FA3E9D /* AIRootViewController.h */,
+				64F5CE6914BA12F400FA3E9D /* AIRootViewController.m */,
 				64FFD997145B3BE300161807 /* Supporting Files */,
 			);
 			path = Diceware;
@@ -949,6 +1000,14 @@
 				64FFE040145B562E00161807 /* zdeflate.cpp in Sources */,
 				64FFE041145B562E00161807 /* zinflate.cpp in Sources */,
 				64FFE042145B562E00161807 /* zlib.cpp in Sources */,
+				64F5CE6A14BA12F400FA3E9D /* AIRootViewController.m in Sources */,
+				64F5CE8014BA162000FA3E9D /* DDAbstractDatabaseLogger.m in Sources */,
+				64F5CE8114BA162000FA3E9D /* DDASLLogger.m in Sources */,
+				64F5CE8214BA162000FA3E9D /* DDFileLogger.m in Sources */,
+				64F5CE8314BA162000FA3E9D /* DDLog.m in Sources */,
+				64F5CE8414BA162000FA3E9D /* DDTTYLogger.m in Sources */,
+				64F5CE8814BA16C600FA3E9D /* Constants.m in Sources */,
+				64F5CE8B14BA1A6600FA3E9D /* AIRandomManager.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
