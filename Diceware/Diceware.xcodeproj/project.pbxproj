@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		649A527114BA738D00E0C49E /* convert.c in Sources */ = {isa = PBXBuildFile; fileRef = 649A526514BA738D00E0C49E /* convert.c */; };
+		649A527214BA738D00E0C49E /* errors.c in Sources */ = {isa = PBXBuildFile; fileRef = 649A526714BA738D00E0C49E /* errors.c */; };
+		649A527314BA738D00E0C49E /* pronpass.c in Sources */ = {isa = PBXBuildFile; fileRef = 649A526A14BA738D00E0C49E /* pronpass.c */; };
+		649A527414BA738D00E0C49E /* randpass.c in Sources */ = {isa = PBXBuildFile; fileRef = 649A526C14BA738D00E0C49E /* randpass.c */; };
+		649A527514BA738D00E0C49E /* rnd.c in Sources */ = {isa = PBXBuildFile; fileRef = 649A526E14BA738D00E0C49E /* rnd.c */; };
+		649A527D14BA73BC00E0C49E /* cast.c in Sources */ = {isa = PBXBuildFile; fileRef = 649A527714BA73BC00E0C49E /* cast.c */; };
+		649A527E14BA73BC00E0C49E /* sha.c in Sources */ = {isa = PBXBuildFile; fileRef = 649A527B14BA73BC00E0C49E /* sha.c */; };
 		64F5CE6A14BA12F400FA3E9D /* AIRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F5CE6914BA12F400FA3E9D /* AIRootViewController.m */; };
 		64F5CE8014BA162000FA3E9D /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F5CE7714BA162000FA3E9D /* DDAbstractDatabaseLogger.m */; };
 		64F5CE8114BA162000FA3E9D /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F5CE7914BA162000FA3E9D /* DDASLLogger.m */; };
@@ -154,6 +161,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		649A526514BA738D00E0C49E /* convert.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = convert.c; sourceTree = "<group>"; };
+		649A526614BA738D00E0C49E /* convert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convert.h; sourceTree = "<group>"; };
+		649A526714BA738D00E0C49E /* errors.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = errors.c; sourceTree = "<group>"; };
+		649A526814BA738D00E0C49E /* errs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = errs.h; sourceTree = "<group>"; };
+		649A526914BA738D00E0C49E /* owntypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = owntypes.h; sourceTree = "<group>"; };
+		649A526A14BA738D00E0C49E /* pronpass.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pronpass.c; sourceTree = "<group>"; };
+		649A526B14BA738D00E0C49E /* pronpass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pronpass.h; sourceTree = "<group>"; };
+		649A526C14BA738D00E0C49E /* randpass.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = randpass.c; sourceTree = "<group>"; };
+		649A526D14BA738D00E0C49E /* randpass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = randpass.h; sourceTree = "<group>"; };
+		649A526E14BA738D00E0C49E /* rnd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rnd.c; sourceTree = "<group>"; };
+		649A526F14BA738D00E0C49E /* rnd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rnd.h; sourceTree = "<group>"; };
+		649A527014BA738D00E0C49E /* smbl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smbl.h; sourceTree = "<group>"; };
+		649A527714BA73BC00E0C49E /* cast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cast.c; sourceTree = "<group>"; };
+		649A527814BA73BC00E0C49E /* cast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cast.h; sourceTree = "<group>"; };
+		649A527914BA73BC00E0C49E /* cast_sboxes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cast_sboxes.h; sourceTree = "<group>"; };
+		649A527B14BA73BC00E0C49E /* sha.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha.c; sourceTree = "<group>"; };
+		649A527C14BA73BC00E0C49E /* sha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha.h; sourceTree = "<group>"; };
 		64F5CE6814BA12F400FA3E9D /* AIRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRootViewController.h; sourceTree = "<group>"; };
 		64F5CE6914BA12F400FA3E9D /* AIRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRootViewController.m; sourceTree = "<group>"; };
 		64F5CE7614BA162000FA3E9D /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
@@ -167,10 +191,10 @@
 		64F5CE7E14BA162000FA3E9D /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
 		64F5CE7F14BA162000FA3E9D /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
 		64F5CE8514BA167500FA3E9D /* AILogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AILogging.h; sourceTree = "<group>"; };
-		64F5CE8614BA16C600FA3E9D /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Diceware/Constants.h; sourceTree = "<group>"; };
-		64F5CE8714BA16C600FA3E9D /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Constants.m; path = Diceware/Constants.m; sourceTree = "<group>"; };
-		64F5CE8914BA1A6500FA3E9D /* AIRandomManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AIRandomManager.h; path = Diceware/AIRandomManager.h; sourceTree = "<group>"; };
-		64F5CE8A14BA1A6500FA3E9D /* AIRandomManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AIRandomManager.mm; path = Diceware/AIRandomManager.mm; sourceTree = "<group>"; };
+		64F5CE8614BA16C600FA3E9D /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		64F5CE8714BA16C600FA3E9D /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		64F5CE8914BA1A6500FA3E9D /* AIRandomManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRandomManager.h; sourceTree = "<group>"; };
+		64F5CE8A14BA1A6500FA3E9D /* AIRandomManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AIRandomManager.mm; sourceTree = "<group>"; };
 		64FFD98C145B3BE300161807 /* Diceware.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diceware.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64FFD990145B3BE300161807 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		64FFD992145B3BE300161807 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -462,6 +486,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		649A526414BA738D00E0C49E /* apg */ = {
+			isa = PBXGroup;
+			children = (
+				649A527614BA73BC00E0C49E /* cast */,
+				649A527A14BA73BC00E0C49E /* sha */,
+				649A526514BA738D00E0C49E /* convert.c */,
+				649A526614BA738D00E0C49E /* convert.h */,
+				649A526714BA738D00E0C49E /* errors.c */,
+				649A526814BA738D00E0C49E /* errs.h */,
+				649A526914BA738D00E0C49E /* owntypes.h */,
+				649A526A14BA738D00E0C49E /* pronpass.c */,
+				649A526B14BA738D00E0C49E /* pronpass.h */,
+				649A526C14BA738D00E0C49E /* randpass.c */,
+				649A526D14BA738D00E0C49E /* randpass.h */,
+				649A526E14BA738D00E0C49E /* rnd.c */,
+				649A526F14BA738D00E0C49E /* rnd.h */,
+				649A527014BA738D00E0C49E /* smbl.h */,
+			);
+			path = apg;
+			sourceTree = "<group>";
+		};
+		649A527614BA73BC00E0C49E /* cast */ = {
+			isa = PBXGroup;
+			children = (
+				649A527714BA73BC00E0C49E /* cast.c */,
+				649A527814BA73BC00E0C49E /* cast.h */,
+				649A527914BA73BC00E0C49E /* cast_sboxes.h */,
+			);
+			path = cast;
+			sourceTree = "<group>";
+		};
+		649A527A14BA73BC00E0C49E /* sha */ = {
+			isa = PBXGroup;
+			children = (
+				649A527B14BA73BC00E0C49E /* sha.c */,
+				649A527C14BA73BC00E0C49E /* sha.h */,
+			);
+			path = sha;
+			sourceTree = "<group>";
+		};
 		64F5CE7514BA162000FA3E9D /* Logging */ = {
 			isa = PBXGroup;
 			children = (
@@ -484,10 +548,6 @@
 		64FFD981145B3BE300161807 = {
 			isa = PBXGroup;
 			children = (
-				64F5CE8914BA1A6500FA3E9D /* AIRandomManager.h */,
-				64F5CE8A14BA1A6500FA3E9D /* AIRandomManager.mm */,
-				64F5CE8614BA16C600FA3E9D /* Constants.h */,
-				64F5CE8714BA16C600FA3E9D /* Constants.m */,
 				64F5CE7514BA162000FA3E9D /* Logging */,
 				64FFD996145B3BE300161807 /* Diceware */,
 				64FFD98F145B3BE300161807 /* Frameworks */,
@@ -517,6 +577,11 @@
 		64FFD996145B3BE300161807 /* Diceware */ = {
 			isa = PBXGroup;
 			children = (
+				649A526414BA738D00E0C49E /* apg */,
+				64F5CE8914BA1A6500FA3E9D /* AIRandomManager.h */,
+				64F5CE8A14BA1A6500FA3E9D /* AIRandomManager.mm */,
+				64F5CE8614BA16C600FA3E9D /* Constants.h */,
+				64F5CE8714BA16C600FA3E9D /* Constants.m */,
 				64FFDEB4145B562E00161807 /* cryptopp561 */,
 				64FFD99F145B3BE300161807 /* AIAppDelegate.h */,
 				64FFD9A0145B3BE300161807 /* AIAppDelegate.mm */,
@@ -1008,6 +1073,13 @@
 				64F5CE8414BA162000FA3E9D /* DDTTYLogger.m in Sources */,
 				64F5CE8814BA16C600FA3E9D /* Constants.m in Sources */,
 				64F5CE8B14BA1A6600FA3E9D /* AIRandomManager.mm in Sources */,
+				649A527114BA738D00E0C49E /* convert.c in Sources */,
+				649A527214BA738D00E0C49E /* errors.c in Sources */,
+				649A527314BA738D00E0C49E /* pronpass.c in Sources */,
+				649A527414BA738D00E0C49E /* randpass.c in Sources */,
+				649A527514BA738D00E0C49E /* rnd.c in Sources */,
+				649A527D14BA73BC00E0C49E /* cast.c in Sources */,
+				649A527E14BA73BC00E0C49E /* sha.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

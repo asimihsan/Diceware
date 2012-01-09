@@ -25,6 +25,9 @@
 #import "Constants.h"
 
 @interface AIRandomManager : NSObject
+{
+    CryptoPP::AutoSeededRandomPool rng;
+}
 
 + (AIRandomManager *)getInstance;
 
