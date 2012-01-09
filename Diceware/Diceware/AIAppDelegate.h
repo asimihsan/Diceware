@@ -9,8 +9,14 @@
 #import <UIKit/UIKit.h>
 #include "Constants.h"
 
+@class AIPasswordViewController;
+
 @interface AIAppDelegate : UIResponder <UIApplicationDelegate>
+{
+
+}
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) AIPasswordViewController *passwordViewController;
 
 @end

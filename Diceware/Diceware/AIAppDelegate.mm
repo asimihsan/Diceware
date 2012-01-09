@@ -8,17 +8,19 @@
 
 #import "AIAppDelegate.h"
 #import "AIRandomManager.h"
+#import "AIPasswordViewController.h"
 
 #import "Logging/DDLog.h"
 #import "Logging/DDTTYLogger.h"
 
 @implementation AIAppDelegate
 
-@synthesize window = _window;
+@synthesize window, passwordViewController;
 
 - (void)dealloc
 {
-    [_window release];
+    [passwordViewController release];
+    [window release];
     [super dealloc];
 }
 
@@ -27,19 +29,23 @@
     LOG_V("entry.");
     
     // -------------------------------------------------------------------------
-    //  Initialize the logger.
+    //  Initialize the logger. We add a TTY (terminal) logger, and in the
+    //  future will probably add e.g. file-based, S3-backup logging.
     // -------------------------------------------------------------------------
     [DDLog addLogger:[DDTTYLogger sharedInstance]];
     // -------------------------------------------------------------------------    
-    
-    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
-    
-    AIRandomManager *randomManager = [AIRandomManager getInstance];
-    LOG_V("randomManager: %@", randomManager);
 
+    // -------------------------------------------------------------------------
+    //  Initialize the window and the current root view controller, the password
+    //  view controller.
+    // -------------------------------------------------------------------------    
+    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.passwordViewController = [[AIPasswordViewController alloc] initWithNibName:nil bundle:nil];
+    [self.window addSubview:self.passwordViewController.view];
+    [self.window makeKeyAndVisible];
+    // -------------------------------------------------------------------------    
+    
     LOG_V("exit");
     return YES;
 }
