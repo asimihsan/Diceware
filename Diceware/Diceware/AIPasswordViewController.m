@@ -77,6 +77,28 @@
     [contents_scroll_view addSubview:text_field];
     [text_field release];
     
+    button.alpha = 0;
+    button.transform = CGAffineTransformMakeScale(1.6, 1.6);
+    [UIView animateWithDuration:0.25
+                          delay:0
+                        options:UIViewAnimationCurveEaseInOut
+                     animations:^{
+                         button.alpha = 1;
+                         button.transform = CGAffineTransformMakeScale(1, 1);
+                     }
+                     completion:NULL];
+    
+    text_field.alpha = 0;
+    text_field.transform = CGAffineTransformMakeScale(1.6, 1.6);    
+    [UIView animateWithDuration:0.25
+                          delay:0.125
+                        options:UIViewAnimationCurveEaseInOut
+                     animations:^{
+                         text_field.alpha = 1;
+                         text_field.transform = CGAffineTransformMakeScale(1, 1);
+                     }
+                     completion:NULL];    
+    
     LOG_V(@"exit.");
 }
 
